@@ -2,8 +2,10 @@ package net.acoyt.bone_smith;
 
 import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.proxy.CommonProxy;
+import net.acoyt.bone_smith.tabs.BoneTab;
 import net.acoyt.bone_smith.util.Reference;
 import net.acoyt.bone_smith.util.handlers.RegistryHandler;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -29,6 +31,8 @@ public class BoneSmith {
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
     public static CommonProxy proxy;
+
+    public static final CreativeTabs BONESMITHTAB = new BoneTab("bonesmithtab");
 
     @SubscribeEvent
     protected void registerItems(RegistryEvent.Register<Item> event) {

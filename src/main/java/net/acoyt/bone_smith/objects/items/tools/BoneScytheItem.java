@@ -1,8 +1,8 @@
 package net.acoyt.bone_smith.objects.items.tools;
 
 import com.google.common.collect.Multimap;
+import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -13,6 +13,7 @@ public class BoneScytheItem extends ItemSword {
     private final ToolMaterial material;
     public BoneScytheItem(String name, ToolMaterial material) {
         super(material);
+        setTranslationKey(name);
         setRegistryName(name);
 
         ItemInit.ITEMS.add(this);
@@ -20,7 +21,7 @@ public class BoneScytheItem extends ItemSword {
         this.material = material;
         this.maxStackSize = 1;
         this.setMaxDamage(material.getMaxUses());
-        this.setCreativeTab(CreativeTabs.COMBAT);
+        this.setCreativeTab(BoneSmith.BONESMITHTAB);
     }
 
     @Override
