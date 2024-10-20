@@ -1,6 +1,5 @@
 package net.acoyt.bone_smith;
 
-import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.proxy.CommonProxy;
 import net.acoyt.bone_smith.tabs.BoneTab;
 import net.acoyt.bone_smith.util.Reference;
@@ -9,7 +8,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.*;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -25,6 +25,8 @@ import java.io.File;
 public class BoneSmith {
     public static SimpleNetworkWrapper network;
     public static File config;
+
+    public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("bone_smith:a");
 
     @Instance
     public static BoneSmith instance;
@@ -46,6 +48,7 @@ public class BoneSmith {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         RegistryHandler.initRegistries();
+        //BoneSoundHandler.init();
     }
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {

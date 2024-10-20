@@ -1,0 +1,20 @@
+{
+  "megalovania": {
+    "sounds": [
+      "disc/megalovania"
+    ],
+    "subtitle": "subtitles.megalovania.disc"
+  },
+  "megalovania_at_home": {
+    "sounds": [
+      "disc/megalovania_at_home"
+    ],
+    "subtitle": "subtitles.megalovania_at_home.disc"
+  },
+  "toomuchcocaine": {
+    "sounds": [
+      "disc/toomuchcocaine"
+    ],
+    "subtitle": "subtitles.toomuchcocaine.disc"
+  }
+}

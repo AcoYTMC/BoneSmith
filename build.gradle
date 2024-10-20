@@ -104,6 +104,10 @@ minecraft {
 
 repositories {
     maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
+    maven {
         name 'CleanroomMC Maven'
         url 'https://maven.cleanroommc.com'
     }
@@ -144,6 +148,7 @@ dependencies {
         testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
         testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     }
+    runtimeOnly "maven.modrinth:attributefix:1.0.12"
 }
 
 apply from: 'gradle/scripts/dependencies.gradle'

@@ -1,17 +1,17 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bone_craft:items/bone_scythe"
+    "layer0": "bone_smith:items/bone_scythe"
   },
   "display": {
     "thirdperson_righthand": {
-      "rotation": [0, -90, 55],
-      "translation": [0, 5, -2],
+      "rotation": [0, -90, 45],
+      "translation": [0, 5, 0],
       "scale": [1.8, 1.8, 1.8]
     },
     "thirdperson_lefthand": {
-      "rotation": [0, 90, -55],
-      "translation": [0, 5, -2],
+      "rotation": [0, 90, -45],
+      "translation": [0, 5, 0],
       "scale": [1.8, 1.8, 1.8]
     },
     "firstperson_righthand": {
