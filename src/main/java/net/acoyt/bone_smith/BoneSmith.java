@@ -4,6 +4,7 @@ import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.proxy.CommonProxy;
 import net.acoyt.bone_smith.tabs.BoneTab;
 import net.acoyt.bone_smith.util.Reference;
+import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
 import net.acoyt.bone_smith.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -49,7 +50,7 @@ public class BoneSmith {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         RegistryHandler.initRegistries();
-        //BoneSoundsHandler.registerSounds();
+        BoneSoundsHandler.registerSounds();
     }
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {

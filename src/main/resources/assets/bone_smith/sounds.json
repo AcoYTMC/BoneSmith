@@ -3,7 +3,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "records/megalovania",
+        "name": "bone_smith:records/megalovania",
         "stream": true
       }
     ]
@@ -12,7 +12,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "records/megalovania_at_home",
+        "name": "bone_smith:records/megalovania_at_home",
         "stream": true
       }
     ]
@@ -21,7 +21,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "records/toomuchcocaine",
+        "name": "bone_smith:records/toomuchcocaine",
         "stream": true
       }
     ]

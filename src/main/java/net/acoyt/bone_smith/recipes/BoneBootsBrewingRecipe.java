@@ -5,12 +5,12 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.brewing.BrewingRecipe;
 
-public class BoneHelmetBrewingRecipe extends BrewingRecipe {
-    private static ItemStack INPUT = new ItemStack(Items.DIAMOND_HELMET);
+public class BoneBootsBrewingRecipe extends BrewingRecipe {
+    private static ItemStack INPUT = new ItemStack(Items.DIAMOND_BOOTS);
     private static ItemStack REAGENT = new ItemStack(ItemInit.FOSSIL);
-    private static ItemStack OUTPUT = new ItemStack(ItemInit.HELMET_BONE_INFUSED);
+    private static ItemStack OUTPUT = new ItemStack(ItemInit.BOOTS_BONE_INFUSED);
 
-    public BoneHelmetBrewingRecipe() {
+    public BoneBootsBrewingRecipe() {
         super(INPUT, REAGENT, OUTPUT);
     }
 }

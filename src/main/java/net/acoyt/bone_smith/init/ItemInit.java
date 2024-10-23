@@ -1,6 +1,8 @@
 package net.acoyt.bone_smith.init;
 
-import net.acoyt.bone_smith.objects.items.*;
+import net.acoyt.bone_smith.objects.items.BoneBoosterItem;
+import net.acoyt.bone_smith.objects.items.ItemBase;
+import net.acoyt.bone_smith.objects.items.Record;
 import net.acoyt.bone_smith.objects.items.armor.ArmorBase;
 import net.acoyt.bone_smith.objects.items.tools.BoneAnchorItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneScytheItem;
@@ -42,9 +44,9 @@ public class ItemInit {
     public static final Item BOOTS_BONE_INFUSED = new ArmorBase("boots_bone_infused", ARMOR_BONE_INFUSED, 1, EntityEquipmentSlot.FEET);
 
     //Records
-    //public static final Item DISC_MEGALOVANIA = new Record("megalovania", BoneSoundsHandler.MEGALOVANIA);
-    //public static final Item DISC_MEGALOVANIA_AT_HOME = new Record("megalovania_at_home", BoneSoundsHandler.MEGALOVANIA_AT_HOME);
-    //public static final Item DISC_TOOMUCHCOCAINE = new Record("toomuchcocaine", BoneSoundsHandler.TOO_MUCH_COCAINE);
+    public static final Item DISC_MEGALOVANIA = new Record("megalovania", BoneSoundsHandler.MEGALOVANIA);
+    public static final Item DISC_MEGALOVANIA_AT_HOME = new Record("megalovania_at_home", BoneSoundsHandler.MEGALOVANIA_AT_HOME);
+    public static final Item DISC_TOOMUCHCOCAINE = new Record("toomuchcocaine", BoneSoundsHandler.TOO_MUCH_COCAINE);
 
     //Extras
     public static final Item BONE_BOOSTER = new BoneBoosterItem("bone_booster");

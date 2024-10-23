@@ -2,8 +2,13 @@ package net.acoyt.bone_smith.util.handlers;
 
 import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
+import net.acoyt.bone_smith.recipes.BoneBootsBrewingRecipe;
+import net.acoyt.bone_smith.recipes.BoneChestplateBrewingRecipe;
+import net.acoyt.bone_smith.recipes.BoneHelmetBrewingRecipe;
+import net.acoyt.bone_smith.recipes.BoneLeggingsBrewingRecipe;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -30,6 +35,10 @@ public class RegistryHandler {
 
     public static void initRegistries() {
         BoneSmith.proxy.render();
+        BrewingRecipeRegistry.addRecipe(new BoneHelmetBrewingRecipe());
+        BrewingRecipeRegistry.addRecipe(new BoneChestplateBrewingRecipe());
+        BrewingRecipeRegistry.addRecipe(new BoneLeggingsBrewingRecipe());
+        BrewingRecipeRegistry.addRecipe(new BoneBootsBrewingRecipe());
     }
 
     public static void postInitRegistries() {
