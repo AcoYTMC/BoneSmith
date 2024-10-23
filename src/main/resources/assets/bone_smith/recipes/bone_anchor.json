@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BOB",
+    " G ",
+    "INI"
+  ],
+  "key": {
+    "B": {
+      "item": "bone_smith:sharp_bone"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "G": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "N": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "bone_smith:bone_anchor",
+    "count": 1
+  }
+}

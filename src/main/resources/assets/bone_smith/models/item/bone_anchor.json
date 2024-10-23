@@ -1,12 +1,12 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bone_smith:items/tools/bone_scythe"
+    "layer0": "bone_smith:items/tools/bone_anchor"
   },
   "display": {
     "thirdperson_righthand": {
       "rotation": [0, -90, 41.5],
-      "translation": [0, 4, 0],
+      "translation": [0, 1.5, 2.5],
       "scale": [1.8, 1.8, 1.8]
     },
     "thirdperson_lefthand": {

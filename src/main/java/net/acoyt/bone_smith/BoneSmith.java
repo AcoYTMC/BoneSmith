@@ -1,5 +1,6 @@
 package net.acoyt.bone_smith;
 
+import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.proxy.CommonProxy;
 import net.acoyt.bone_smith.tabs.BoneTab;
 import net.acoyt.bone_smith.util.Reference;
@@ -48,7 +49,7 @@ public class BoneSmith {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         RegistryHandler.initRegistries();
-        //BoneSoundHandler.init();
+        //BoneSoundsHandler.registerSounds();
     }
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {

@@ -2,7 +2,6 @@ package net.acoyt.bone_smith.util.handlers;
 
 import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
-import net.acoyt.bone_smith.util.interfaces.IHasModel;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -21,9 +20,7 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
         for(Item item : ItemInit.ITEMS) {
-            if(item instanceof IHasModel) {
-                ((IHasModel)item).registerModels();
-            }
+            BoneSmith.proxy.registerItemRenderer(item, 0, "inventory");
         }
     }
 

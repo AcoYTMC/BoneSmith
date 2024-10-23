@@ -1,20 +1,29 @@
 {
-  "megalovania": {
+  "records.megalovania": {
+    "category": "music",
     "sounds": [
-      "disc/megalovania"
-    ],
-    "subtitle": "subtitles.megalovania.disc"
+      {
+        "name": "records/megalovania",
+        "stream": true
+      }
+    ]
   },
-  "megalovania_at_home": {
+  "records.megalovania_at_home": {
+    "category": "music",
     "sounds": [
-      "disc/megalovania_at_home"
-    ],
-    "subtitle": "subtitles.megalovania_at_home.disc"
+      {
+        "name": "records/megalovania_at_home",
+        "stream": true
+      }
+    ]
   },
-  "toomuchcocaine": {
+  "records.toomuchcocaine": {
+    "category": "music",
     "sounds": [
-      "disc/toomuchcocaine"
-    ],
-    "subtitle": "subtitles.toomuchcocaine.disc"
+      {
+        "name": "records/toomuchcocaine",
+        "stream": true
+      }
+    ]
   }
 }

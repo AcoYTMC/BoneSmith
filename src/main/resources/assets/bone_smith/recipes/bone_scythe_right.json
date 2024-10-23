@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OBB",
+    "S B",
+    "S  "
+  ],
+  "key": {
+    "B": {
+      "item": "bone_smith:sharp_bone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "bone_smith:bone_scythe",
+    "count": 1
+  }
+}

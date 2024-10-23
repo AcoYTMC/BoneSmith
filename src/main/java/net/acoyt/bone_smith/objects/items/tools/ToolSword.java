@@ -3,14 +3,13 @@ package net.acoyt.bone_smith.objects.items.tools;
 import com.google.common.collect.Multimap;
 import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
-import net.acoyt.bone_smith.util.interfaces.IHasModel;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSword;
 
-public class ToolSword extends ItemSword implements IHasModel {
+public class ToolSword extends ItemSword {
     public static final Item block = null;
     private final float attackDamage;
     private final ToolMaterial material;
@@ -41,10 +40,5 @@ public class ToolSword extends ItemSword implements IHasModel {
         }
 
         return multimap;
-    }
-
-    @Override
-    public void registerModels() {
-        BoneSmith.proxy.registerItemRenderer(this, 0, "bone_smith");
     }
 }

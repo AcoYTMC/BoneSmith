@@ -3,15 +3,15 @@ package net.acoyt.bone_smith.objects.items.tools;
 import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
 
-public class BoneScytheItem extends ItemScythe {
+public class BoneAnchorItem extends ItemAnchor {
     private final ToolMaterial material;
-    public BoneScytheItem(String name, ToolMaterial material) {
+    public BoneAnchorItem(String name, ToolMaterial material) {
         super(material);
         setTranslationKey(name);
         setRegistryName(name);
 
         ItemInit.ITEMS.add(this);
-        this.attackDamage = 8.5F + material.getAttackDamage();
+        this.attackDamage = 10.0F + material.getAttackDamage();
         this.material = material;
         this.maxStackSize = 1;
         this.setMaxDamage(material.getMaxUses());

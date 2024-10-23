@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "bone_smith:items/bone_sword"
+    "layer0": "bone_smith:items/tools/bone_sword"
   }
 }

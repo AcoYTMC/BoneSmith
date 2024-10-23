@@ -11,8 +11,8 @@ import java.util.Set;
 public class ItemScythe extends ItemTool {
     private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(Blocks.WEB);
 
-    protected ItemScythe(Item.ToolMaterial material, float speed) {
+    protected ItemScythe(Item.ToolMaterial material) {
         super(material, EFFECTIVE_ON);
-        this.attackSpeed = speed;
+        this.attackSpeed = -2.7F;
     }
 }
