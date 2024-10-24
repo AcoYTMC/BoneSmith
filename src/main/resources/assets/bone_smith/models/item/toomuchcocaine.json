@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "bone_smith:items/discs/disc_toomuchcocaine"
-    }
-}
