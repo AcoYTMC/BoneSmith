@@ -11,7 +11,7 @@ public class BoneAnchorItem extends ItemAnchor {
         setRegistryName(name);
 
         ItemInit.ITEMS.add(this);
-        this.attackDamage = 10.0F + material.getAttackDamage();
+        this.attackDamage = 11.0F + material.getAttackDamage();
         this.material = material;
         this.maxStackSize = 1;
         this.setMaxDamage(material.getMaxUses());

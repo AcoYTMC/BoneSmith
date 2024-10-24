@@ -11,9 +11,9 @@ public class BoneSoundsHandler {
     public static SoundEvent MEGALOVANIA_AT_HOME;
 
     public static void registerSounds() {
-        TOO_MUCH_COCAINE = registerSound("bone_smith:records.megalovania");
-        MEGALOVANIA = registerSound("bone_smith:records.megalovania");
-        MEGALOVANIA_AT_HOME = registerSound("bone_smith:records.megalovania_at_home");
+        TOO_MUCH_COCAINE = registerSound("records.toomuchcocaine");
+        MEGALOVANIA = registerSound("records.megalovania");
+        MEGALOVANIA_AT_HOME = registerSound("records.megalovania_at_home");
 
     }
 

@@ -11,7 +11,7 @@ public class BoneScytheItem extends ItemScythe {
         setRegistryName(name);
 
         ItemInit.ITEMS.add(this);
-        this.attackDamage = 9.5F + material.getAttackDamage();
+        this.attackDamage = 10.5F + material.getAttackDamage();
         this.material = material;
         this.maxStackSize = 1;
         this.setMaxDamage(material.getMaxUses());
