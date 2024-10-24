@@ -41,4 +41,7 @@ public class ItemInit {
     public static final Item CHESTPLATE_BONE_INFUSED = new ArmorBase("chestplate_bone_infused", ARMOR_BONE_INFUSED, 1, EntityEquipmentSlot.CHEST);
     public static final Item LEGGINGS_BONE_INFUSED = new ArmorBase("leggings_bone_infused", ARMOR_BONE_INFUSED, 2, EntityEquipmentSlot.LEGS);
     public static final Item BOOTS_BONE_INFUSED = new ArmorBase("boots_bone_infused", ARMOR_BONE_INFUSED, 1, EntityEquipmentSlot.FEET);
+
+    //Extras
+    public static final Item BONE_BOOSTER = new BoneBoosterItem("bone_booster");
 }
