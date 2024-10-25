@@ -6,15 +6,14 @@ import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class BoneSoundsHandler {
-    public static SoundEvent TOO_MUCH_COCAINE;
-    public static SoundEvent MEGALOVANIA;
-    public static SoundEvent MEGALOVANIA_AT_HOME;
+    public static SoundEvent SCYTHE_HIT;
+    public static SoundEvent ANCHOR_HIT;
+    public static SoundEvent DASH;
 
     public static void registerSounds() {
-        TOO_MUCH_COCAINE = registerSound("records.toomuchcocaine");
-        MEGALOVANIA = registerSound("records.megalovania");
-        MEGALOVANIA_AT_HOME = registerSound("records.megalovania_at_home");
-
+        SCYTHE_HIT = registerSound("weapons.hit.scythe_hit");
+        ANCHOR_HIT = registerSound("weapons.hit.anchor_hit");
+        DASH = registerSound("tools.bone_booster.dash");
     }
 
     private static SoundEvent registerSound(String name) {

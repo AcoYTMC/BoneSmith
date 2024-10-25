@@ -1,9 +1,11 @@
 package net.acoyt.bone_smith.objects.items.tools;
 
 import com.google.common.collect.Sets;
+import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -73,5 +75,12 @@ public class ItemAnchor extends ItemTool {
     public float getDestroySpeed(ItemStack stack, IBlockState state) {
         Material material = state.getMaterial();
         return material != Material.IRON && material != Material.ANVIL && material != Material.ROCK ? super.getDestroySpeed(stack, state) : this.efficiency;
+    }
+
+    @Override
+    public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker) {
+        stack.damageItem(2, attacker);
+        attacker.playSound(BoneSoundsHandler.ANCHOR_HIT, 1, 1);
+        return true;
     }
 }

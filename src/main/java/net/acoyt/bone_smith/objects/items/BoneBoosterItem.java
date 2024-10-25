@@ -1,7 +1,7 @@
 package net.acoyt.bone_smith.objects.items;
 
-import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
+import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -30,6 +30,7 @@ public class BoneBoosterItem extends Item {
         playerIn.setVelocity(1.6*motionX, 0.6*motionY, 1.6*motionZ);
         playerIn.fallDistance = 0.0F;
         playerIn.getCooldownTracker().setCooldown(this, 70);
+        playerIn.playSound(BoneSoundsHandler.DASH, 1, 1);
         return new ActionResult<ItemStack>(EnumActionResult.PASS, playerIn.getHeldItem(handIn));
     }
 }

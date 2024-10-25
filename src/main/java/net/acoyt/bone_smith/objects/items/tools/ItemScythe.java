@@ -1,7 +1,9 @@
 package net.acoyt.bone_smith.objects.items.tools;
 
 import com.google.common.collect.Sets;
+import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
 import net.minecraft.block.Block;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -18,7 +20,9 @@ public class ItemScythe extends ItemTool {
     }
 
     @Override
-    public boolean canApplyAtEnchantingTable(ItemStack stack, net.minecraft.enchantment.Enchantment enchantment) {
-        return enchantment.type.canEnchantItem(stack.getItem());
+    public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker) {
+        stack.damageItem(2, attacker);
+        attacker.playSound(BoneSoundsHandler.SCYTHE_HIT, 1, 1);
+        return true;
     }
 }

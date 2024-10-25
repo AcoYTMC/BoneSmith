@@ -1,29 +1,33 @@
 {
-  "records.megalovania": {
-    "category": "music",
+  "weapons.hit.scythe_hit": {
+    "category": "player",
     "sounds": [
       {
-        "name": "bone_smith:records/megalovania",
+        "name": "bone_smith:weapons/hit/scythe_hit",
         "stream": true
       }
     ]
   },
-  "records.megalovania_at_home": {
-    "category": "music",
+  "weapons.hit.anchor_hit": {
+    "category": "player",
     "sounds": [
       {
-        "name": "bone_smith:records/megalovania_at_home",
+        "name": [
+          "bone_smith:weapons/hit/anchor_hit_1",
+          "bone_smith:weapons/hit/anchor_hit_2",
+          "bone_smith:weapons/hit/anchor_hit_3"
+        ],
         "stream": true
       }
     ]
   },
-  "records.toomuchcocaine": {
-    "category": "music",
+  "tools.bone_booster.dash": {
+    "category": "player",
     "sounds": [
-      {
-        "name": "bone_smith:records/toomuchcocaine",
-        "stream": true
-      }
+      "bone_smith:tools/bone_booster/boost1",
+      "bone_smith:tools/bone_booster/boost2",
+      "bone_smith:tools/bone_booster/boost3",
+      "bone_smith:tools/bone_booster/boost4"
     ]
   }
 }

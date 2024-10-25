@@ -7,7 +7,6 @@ import net.acoyt.bone_smith.objects.items.tools.BoneAnchorItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneScytheItem;
 import net.acoyt.bone_smith.objects.items.tools.ToolSword;
 import net.acoyt.bone_smith.util.Reference;
-import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
