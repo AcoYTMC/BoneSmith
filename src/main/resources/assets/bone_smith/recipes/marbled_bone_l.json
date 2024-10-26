@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bone_blocks",
+  "pattern": [
+    "BC",
+    "CB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "bone_smith:marbled_bone",
+    "count": 2
+  }
+}

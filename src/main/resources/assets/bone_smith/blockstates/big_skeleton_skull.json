@@ -1,5 +1,8 @@
 {
-    "variants": {
-        "normal": { "model": "bone_smith:big_skeleton_skull" }
-    }
+  "variants": {
+    "facing=north": { "model": "bone_smith:big_skeleton_skull" },
+    "facing=south": { "model": "bone_smith:big_skeleton_skull", "y": 180 },
+    "facing=west":  { "model": "bone_smith:big_skeleton_skull", "y": 270 },
+    "facing=east":  { "model": "bone_smith:big_skeleton_skull", "y": 90 }
+  }
 }

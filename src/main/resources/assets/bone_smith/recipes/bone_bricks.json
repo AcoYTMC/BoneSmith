@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bone_blocks",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "bone_smith:bone_bricks",
+    "count": 4
+  }
+}

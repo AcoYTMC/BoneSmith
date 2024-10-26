@@ -6,7 +6,7 @@
     "up": "bone_smith:blocks/big_skeleton_skull_top",
     "north": "bone_smith:blocks/big_skeleton_skull_front",
     "east": "bone_smith:blocks/big_skeleton_skull_left_side",
-    "south": "bone_smith:blocks/big_skeleton_skull_right_side",
-    "west": "bone_smith:blocks/big_skeleton_skull_back"
+    "south": "bone_smith:blocks/big_skeleton_skull_back",
+    "west": "bone_smith:blocks/big_skeleton_skull_right_side"
   }
 }

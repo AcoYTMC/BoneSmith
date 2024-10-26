@@ -1,10 +1,11 @@
 package net.acoyt.bone_smith.init;
 
+import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.objects.items.BoneBoosterItem;
 import net.acoyt.bone_smith.objects.items.ItemBase;
-import net.acoyt.bone_smith.objects.items.cosmetics.WearableItem;
 import net.acoyt.bone_smith.objects.items.armor.ArmorBase;
 import net.acoyt.bone_smith.objects.items.cosmetics.SepulchreSanguine;
+import net.acoyt.bone_smith.objects.items.cosmetics.WearableItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneAnchorItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneScytheItem;
 import net.acoyt.bone_smith.objects.items.tools.ToolSword;
