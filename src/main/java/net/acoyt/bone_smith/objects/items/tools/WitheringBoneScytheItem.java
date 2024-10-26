@@ -27,7 +27,7 @@ public class WitheringBoneScytheItem extends ItemScythe {
         setRegistryName(name);
 
         ItemInit.ITEMS.add(this);
-        this.attackDamage = 10.5F + material.getAttackDamage();
+        this.attackDamage = 8.5F + material.getAttackDamage();
         this.material = material;
         this.maxStackSize = 1;
         this.setMaxDamage(material.getMaxUses());

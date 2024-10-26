@@ -47,6 +47,7 @@ public class RegistryHandler {
         BrewingRecipeRegistry.addRecipe(new BoneLeggingsBrewingRecipe());
         BrewingRecipeRegistry.addRecipe(new BoneBootsBrewingRecipe());
         BrewingRecipeRegistry.addRecipe(new WitheringBoneScytheBrewingRecipe());
+        BrewingRecipeRegistry.addRecipe(new GraveyardHatBrewingRecipe());
     }
 
     public static void postInitRegistries() {

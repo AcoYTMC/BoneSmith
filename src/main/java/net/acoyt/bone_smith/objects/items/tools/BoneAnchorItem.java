@@ -6,12 +6,12 @@ import net.acoyt.bone_smith.init.ItemInit;
 public class BoneAnchorItem extends ItemAnchor {
     private final ToolMaterial material;
     public BoneAnchorItem(String name, ToolMaterial material) {
-        super(material, 1.2D);
+        super(material, 1.1D);
         setTranslationKey(name);
         setRegistryName(name);
 
         ItemInit.ITEMS.add(this);
-        this.attackDamage = 11.0F + material.getAttackDamage();
+        this.attackDamage = 9.5F + material.getAttackDamage();
         this.material = material;
         this.maxStackSize = 1;
         this.setMaxDamage(material.getMaxUses());

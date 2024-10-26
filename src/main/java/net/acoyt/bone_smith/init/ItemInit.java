@@ -7,7 +7,6 @@ import net.acoyt.bone_smith.objects.items.cosmetics.SepulchreSanguine;
 import net.acoyt.bone_smith.objects.items.cosmetics.WearableHat;
 import net.acoyt.bone_smith.objects.items.tools.BoneAnchorItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneScytheItem;
-import net.acoyt.bone_smith.objects.items.tools.ToolSword;
 import net.acoyt.bone_smith.objects.items.tools.WitheringBoneScytheItem;
 import net.acoyt.bone_smith.util.Reference;
 import net.minecraft.init.SoundEvents;
@@ -25,13 +24,11 @@ public class ItemInit {
 
     //Materials
     public static final ToolMaterial TOOL_PLUSH = EnumHelper.addToolMaterial("tool_plush", 0, 100, 0.0f, -3.9f, 0);
-    public static final ToolMaterial TOOL_BONE = EnumHelper.addToolMaterial("tool_bone", 1, 275, 6.0f, 0.0f, 7);
     public static final ToolMaterial TOOL_SCYTHE = EnumHelper.addToolMaterial("tool_scythe", 3, 1561, 8.0F, 0.0F, 10);
     public static final ToolMaterial TOOL_ANCHOR = EnumHelper.addToolMaterial("tool_anchor", 3, 432, 9.0F, 0.0f, 22);
-    public static final ArmorMaterial ARMOR_BONE_INFUSED = EnumHelper.addArmorMaterial("armor_bone_infused", Reference.MOD_ID + ":bone_infused", 1500, new int[] {5, 8, 10, 5}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
+    public static final ArmorMaterial ARMOR_BONE_INFUSED = EnumHelper.addArmorMaterial("armor_bone_infused", Reference.MOD_ID + ":bone_infused", 1500, new int[] {4, 7, 9, 4}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
 
     //Tools
-    public static final Item BONE_SWORD = new ToolSword("bone_sword", TOOL_BONE);
     public static final Item BONE_SCYTHE = new BoneScytheItem("bone_scythe", TOOL_SCYTHE);
     public static final Item WITHERING_BONE_SCYTHE = new WitheringBoneScytheItem("withering_bone_scythe", TOOL_SCYTHE);
     public static final Item BONE_ANCHOR = new BoneAnchorItem("bone_anchor", TOOL_ANCHOR);

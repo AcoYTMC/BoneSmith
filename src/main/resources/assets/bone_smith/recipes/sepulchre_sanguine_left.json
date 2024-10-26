@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RWF",
+    "R S",
+    "  S"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:wool",
+      "date": 14
+    },
+    "W": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "F": {
+      "item": "bone_smith:withered_fossil"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bone_smith:sepulchre_sanguine",
+    "count": 1
+  }
+}

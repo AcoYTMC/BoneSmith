@@ -18,6 +18,9 @@ public class EntityLootTableEvent {
             if (random.nextInt(20) == 0) {
                 event.getEntityLiving().entityDropItem(new ItemStack(ItemInit.FOSSIL), 0.0f);
             }
+            if (random.nextInt(10) == 0) {
+                event.getEntityLiving().entityDropItem(new ItemStack(ItemInit.SHARP_BONE), 0.0f);
+            }
         }
         if (event.getEntityLiving() instanceof EntitySkeletonHorse) {
             if (random.nextInt(4) == 0) {

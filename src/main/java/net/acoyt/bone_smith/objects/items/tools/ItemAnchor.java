@@ -29,7 +29,7 @@ public class ItemAnchor extends ItemSword {
     protected ItemAnchor(Item.ToolMaterial material, double weaponSpeed) {
         super(material);
         this.attackSpeed = weaponSpeed;
-        this.attackDamage = 12.0F;
+        this.attackDamage = 11.5F;
         this.efficiency = 4.0F;
         this.toolMaterial = material;
     }

@@ -11,7 +11,7 @@ import net.minecraft.item.ItemSword;
 public class ItemScythe extends ItemSword {
 
     protected ToolMaterial material;
-    protected float attackDamage = 11.5f;
+    protected float attackDamage = 9.5f;
     protected double attackSpeed = 0.0D;
 
     protected ItemScythe(Item.ToolMaterial materialIn, double weaponSpeed) {

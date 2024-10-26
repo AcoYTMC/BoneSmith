@@ -1,6 +1,5 @@
 package net.acoyt.bone_smith;
 
-import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.proxy.CommonProxy;
 import net.acoyt.bone_smith.tabs.BoneTab;
 import net.acoyt.bone_smith.util.Reference;
