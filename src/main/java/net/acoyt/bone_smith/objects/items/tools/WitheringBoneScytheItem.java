@@ -22,7 +22,7 @@ public class WitheringBoneScytheItem extends ItemScythe {
     private final ToolMaterial material;
     private final String displayName;
     public WitheringBoneScytheItem(String name, ToolMaterial material) {
-        super(material);
+        super(material, 1.4D);
         setTranslationKey(name);
         setRegistryName(name);
 

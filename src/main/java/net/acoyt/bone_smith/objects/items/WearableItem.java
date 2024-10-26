@@ -36,6 +36,7 @@ public class WearableItem extends Item {
         setCreativeTab(BoneSmith.BONESMITHTAB);
 
         ItemInit.ITEMS.add(this);
+        BlockDispenser.DISPENSE_BEHAVIOR_REGISTRY.putObject(this, DISPENSER_BEHAVIOR);
     }
 
     public static final IBehaviorDispenseItem DISPENSER_BEHAVIOR = new BehaviorDefaultDispenseItem() {
@@ -72,13 +73,13 @@ public class WearableItem extends Item {
     }
 
     @Override
-    public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer player, EnumHand hand) {
-        ItemStack itemstack = player.getHeldItem(hand);
+    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
+        ItemStack itemstack = playerIn.getHeldItem(handIn);
         EntityEquipmentSlot entityequipmentslot = EntityLiving.getSlotForItemStack(itemstack);
-        ItemStack itemstack1 = player.getItemStackFromSlot(entityequipmentslot);
+        ItemStack itemstack1 = playerIn.getItemStackFromSlot(entityequipmentslot);
 
         if (itemstack1.isEmpty()) {
-            player.setItemStackToSlot(entityequipmentslot, itemstack.copy());
+            playerIn.setItemStackToSlot(entityequipmentslot, itemstack.copy());
             itemstack.setCount(0);
             return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemstack);
         }

@@ -6,7 +6,7 @@ import net.acoyt.bone_smith.init.ItemInit;
 public class BoneAnchorItem extends ItemAnchor {
     private final ToolMaterial material;
     public BoneAnchorItem(String name, ToolMaterial material) {
-        super(material);
+        super(material, 1.2D);
         setTranslationKey(name);
         setRegistryName(name);
 

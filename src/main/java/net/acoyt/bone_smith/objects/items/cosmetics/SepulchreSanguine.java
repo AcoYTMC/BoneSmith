@@ -1,11 +1,10 @@
-package net.acoyt.bone_smith.objects.items.tools;
+package net.acoyt.bone_smith.objects.items.cosmetics;
 
 import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;

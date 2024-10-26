@@ -32,3 +32,10 @@ tile.burrowed_bone.name=Burrowed Bone
 tile.cracked_bone_bricks.name=Cracked Bone Bricks
 tile.marbled_bone.name=Marbled Bone
 tile.polished_bone.name=Polished Bone
+
+#-ISSUES-
+#1.Changing the Enchantments on the Bone Scythe to not be a pickaxe, while still not having access to sharpness
+#2.Getting the cosmetic hat to be wearable
+#3.Creating a block that can rotate on the Y-Axis, but not as much as a skull
+#4.Try and Inject into chest loot tables
+#5.Try and get Italic text???

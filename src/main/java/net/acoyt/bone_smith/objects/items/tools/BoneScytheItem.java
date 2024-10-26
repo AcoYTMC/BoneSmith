@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 public class BoneScytheItem extends ItemScythe {
     private final ToolMaterial material;
     public BoneScytheItem(String name, ToolMaterial material) {
-        super(material);
+        super(material, 1.4D);
         setTranslationKey(name);
         setRegistryName(name);
 

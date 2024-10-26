@@ -1,4 +1,4 @@
-package net.acoyt.bone_smith.objects.items.tools;
+package net.acoyt.bone_smith.objects.items.cosmetics;
 
 import net.minecraft.item.ItemSword;
 

@@ -4,6 +4,8 @@ import net.acoyt.bone_smith.objects.items.BoneBoosterItem;
 import net.acoyt.bone_smith.objects.items.ItemBase;
 import net.acoyt.bone_smith.objects.items.WearableItem;
 import net.acoyt.bone_smith.objects.items.armor.ArmorBase;
+import net.acoyt.bone_smith.objects.items.cosmetics.GraveyardHatCosmetic;
+import net.acoyt.bone_smith.objects.items.cosmetics.SepulchreSanguine;
 import net.acoyt.bone_smith.objects.items.tools.*;
 import net.acoyt.bone_smith.util.Reference;
 import net.minecraft.init.SoundEvents;
@@ -47,5 +49,5 @@ public class ItemInit {
     //Extras
     public static final Item BONE_BOOSTER = new BoneBoosterItem("bone_booster");
     public static final Item SEPULCHRE_SANGUINE = new SepulchreSanguine("sepulchre_sanguine", TOOL_PLUSH);
-    public static final Item GRAVEYARD_HAT = new WearableItem("graveyard_hat", ARMOR_COSMETIC, EntityEquipmentSlot.HEAD);
+    public static final Item GRAVEYARD_HAT = new GraveyardHatCosmetic("graveyard_hat", ARMOR_COSMETIC, EntityEquipmentSlot.HEAD);
 }
