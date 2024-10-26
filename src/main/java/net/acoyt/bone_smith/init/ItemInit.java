@@ -1,11 +1,10 @@
 package net.acoyt.bone_smith.init;
 
-import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.objects.items.BoneBoosterItem;
 import net.acoyt.bone_smith.objects.items.ItemBase;
 import net.acoyt.bone_smith.objects.items.armor.ArmorBase;
 import net.acoyt.bone_smith.objects.items.cosmetics.SepulchreSanguine;
-import net.acoyt.bone_smith.objects.items.cosmetics.WearableItem;
+import net.acoyt.bone_smith.objects.items.cosmetics.WearableHat;
 import net.acoyt.bone_smith.objects.items.tools.BoneAnchorItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneScytheItem;
 import net.acoyt.bone_smith.objects.items.tools.ToolSword;
@@ -30,7 +29,6 @@ public class ItemInit {
     public static final ToolMaterial TOOL_SCYTHE = EnumHelper.addToolMaterial("tool_scythe", 3, 1561, 8.0F, 0.0F, 10);
     public static final ToolMaterial TOOL_ANCHOR = EnumHelper.addToolMaterial("tool_anchor", 3, 432, 9.0F, 0.0f, 22);
     public static final ArmorMaterial ARMOR_BONE_INFUSED = EnumHelper.addArmorMaterial("armor_bone_infused", Reference.MOD_ID + ":bone_infused", 1500, new int[] {5, 8, 10, 5}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
-    public static final ArmorMaterial ARMOR_COSMETIC = EnumHelper.addArmorMaterial("armor_cosmetic", Reference.MOD_ID + ":cosmetic", 100, new int[] {0, 0, 0, 0}, 1, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.0F);
 
     //Tools
     public static final Item BONE_SWORD = new ToolSword("bone_sword", TOOL_BONE);
@@ -52,5 +50,5 @@ public class ItemInit {
     //Extras
     public static final Item BONE_BOOSTER = new BoneBoosterItem("bone_booster");
     public static final Item SEPULCHRE_SANGUINE = new SepulchreSanguine("sepulchre_sanguine", TOOL_PLUSH);
-    public static final Item GRAVEYARD_HAT = new WearableItem("graveyard_hat", ARMOR_COSMETIC, EntityEquipmentSlot.HEAD);
+    public static final Item GRAVEYARD_HAT = new WearableHat("graveyard_hat");
 }
