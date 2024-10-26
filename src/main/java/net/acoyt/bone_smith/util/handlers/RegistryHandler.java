@@ -1,11 +1,10 @@
 package net.acoyt.bone_smith.util.handlers;
 
 import net.acoyt.bone_smith.BoneSmith;
+import net.acoyt.bone_smith.init.BlockInit;
 import net.acoyt.bone_smith.init.ItemInit;
-import net.acoyt.bone_smith.recipes.BoneBootsBrewingRecipe;
-import net.acoyt.bone_smith.recipes.BoneChestplateBrewingRecipe;
-import net.acoyt.bone_smith.recipes.BoneHelmetBrewingRecipe;
-import net.acoyt.bone_smith.recipes.BoneLeggingsBrewingRecipe;
+import net.acoyt.bone_smith.recipes.*;
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
@@ -23,9 +22,17 @@ public class RegistryHandler {
     }
 
     @SubscribeEvent
+    public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+        event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
+    }
+
+    @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
         for(Item item : ItemInit.ITEMS) {
             BoneSmith.proxy.registerItemRenderer(item, 0, "inventory");
+        }
+        for(Block block : BlockInit.BLOCKS) {
+            BoneSmith.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
         }
     }
 
@@ -39,6 +46,7 @@ public class RegistryHandler {
         BrewingRecipeRegistry.addRecipe(new BoneChestplateBrewingRecipe());
         BrewingRecipeRegistry.addRecipe(new BoneLeggingsBrewingRecipe());
         BrewingRecipeRegistry.addRecipe(new BoneBootsBrewingRecipe());
+        BrewingRecipeRegistry.addRecipe(new WitheringBoneScytheBrewingRecipe());
     }
 
     public static void postInitRegistries() {

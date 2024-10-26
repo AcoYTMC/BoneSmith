@@ -9,11 +9,13 @@ public class BoneSoundsHandler {
     public static SoundEvent SCYTHE_HIT;
     public static SoundEvent ANCHOR_HIT;
     public static SoundEvent DASH;
+    public static SoundEvent PLUSH_HIT;
 
     public static void registerSounds() {
         SCYTHE_HIT = registerSound("weapons.hit.scythe_hit");
         ANCHOR_HIT = registerSound("weapons.hit.anchor_hit");
         DASH = registerSound("tools.bone_booster.dash");
+        PLUSH_HIT = registerSound("cosmetic.sepulchre_sanguine.squeak");
     }
 
     private static SoundEvent registerSound(String name) {

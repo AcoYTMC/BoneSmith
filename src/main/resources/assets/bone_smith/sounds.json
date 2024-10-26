@@ -2,23 +2,15 @@
   "weapons.hit.scythe_hit": {
     "category": "player",
     "sounds": [
-      {
-        "name": "bone_smith:weapons/hit/scythe_hit",
-        "stream": true
-      }
+      "bone_smith:weapons/hit/scythe_hit"
     ]
   },
   "weapons.hit.anchor_hit": {
     "category": "player",
     "sounds": [
-      {
-        "name": [
-          "bone_smith:weapons/hit/anchor_hit_1",
-          "bone_smith:weapons/hit/anchor_hit_2",
-          "bone_smith:weapons/hit/anchor_hit_3"
-        ],
-        "stream": true
-      }
+      "bone_smith:weapons/hit/anchor_hit_1",
+      "bone_smith:weapons/hit/anchor_hit_2",
+      "bone_smith:weapons/hit/anchor_hit_3"
     ]
   },
   "tools.bone_booster.dash": {
@@ -28,6 +20,14 @@
       "bone_smith:tools/bone_booster/boost2",
       "bone_smith:tools/bone_booster/boost3",
       "bone_smith:tools/bone_booster/boost4"
+    ]
+  },
+  "cosmetic.sepulchre_sanguine.squeak": {
+    "category": "player",
+    "sounds": [
+      "bone_smith:cosmetic/sepulchre_sanguine/squeak1",
+      "bone_smith:cosmetic/sepulchre_sanguine/squeak2",
+      "bone_smith:cosmetic/sepulchre_sanguine/squeak3"
     ]
   }
 }

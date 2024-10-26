@@ -1,11 +1,34 @@
+#Materials/Items
 item.fossil.name=Fossil
-item.bone_sword.name=Bone Sword
-item.bone_scythe.name=Bone Scythe
+item.withered_fossil.name=§8Withered Fossil
 item.sharp_bone.name=Sharp Bone
-item.bone_booster.name=Bone Booster
+
+#Weapons
+item.bone_sword.name=Bone Sword
 item.bone_anchor.name=Bone Anchor
+item.bone_scythe.name=Bone Scythe
+item.withering_bone_scythe.name=§8Withering Bone Scythe
+item.withering_bone_scythe.desc=§6Withering
+
+#Extras
+item.bone_booster.name=Bone Booster
+item.graveyard_hat.name=Graveyard Hat
+item.sepulchre_sanguine.name=§4Sepulchre Sanguine
+item.sepulchre_sanguine.desc=§6In case you couldn't read the disclaimer, IT'S FOAM YA DING DONG
+
+#Armor
 item.helmet_bone_infused.name=Bone Infused Diamond Helmet
 item.chestplate_bone_infused.name=Bone Infused Diamond Chestplate
 item.leggings_bone_infused.name=Bone Infused Diamond Leggings
 item.boots_bone_infused.name=Bone Infused Diamond Boots
+
+#Item Groups
 itemGroup.bonesmithtab=Bone Smith Item Group
+
+#Blocks
+tile.bone_bricks.name=Bone Bricks
+tile.bone_tiles.name=Bone Tiles
+tile.burrowed_bone.name=Burrowed Bone
+tile.cracked_bone_bricks.name=Cracked Bone Bricks
+tile.marbled_bone.name=Marbled Bone
+tile.polished_bone.name=Polished Bone

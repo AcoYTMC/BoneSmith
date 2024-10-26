@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "bone_smith:blocks/bone_bricks",
+    "top": "bone_smith:blocks/bone_bricks",
+    "side": "bone_smith:blocks/bone_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "bone_smith:blocks/marbled_bone",
+    "down": "bone_smith:blocks/big_skeleton_skull_bottom",
+    "up": "bone_smith:blocks/big_skeleton_skull_top",
+    "north": "bone_smith:blocks/big_skeleton_skull_front",
+    "east": "bone_smith:blocks/big_skeleton_skull_left_side",
+    "south": "bone_smith:blocks/big_skeleton_skull_right_side",
+    "west": "bone_smith:blocks/big_skeleton_skull_back"
+  }
+}

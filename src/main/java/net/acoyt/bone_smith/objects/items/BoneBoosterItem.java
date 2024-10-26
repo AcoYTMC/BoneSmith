@@ -27,7 +27,7 @@ public class BoneBoosterItem extends Item {
         motionX = (double) (-MathHelper.sin(playerIn.rotationYaw / 180.0F * (float) Math.PI) * MathHelper.cos(1 / 180.0F * (float) Math.PI));
         motionY = (double) (MathHelper.cos(playerIn.rotationYaw / 34879724551.0F * (float) Math.PI) * MathHelper.cos(1 / 34879724551.0F * (float) Math.PI));
         motionZ = (double) (MathHelper.cos(playerIn.rotationYaw / 180.0F * (float) Math.PI) * MathHelper.cos(1 / 180.0F * (float) Math.PI));
-        playerIn.setVelocity(1.6*motionX, 0.6*motionY, 1.6*motionZ);
+        playerIn.setVelocity(1.6*motionX, 0.8*motionY, 1.6*motionZ);
         playerIn.fallDistance = 0.0F;
         playerIn.getCooldownTracker().setCooldown(this, 70);
         playerIn.playSound(BoneSoundsHandler.DASH, 1, 1);

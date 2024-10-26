@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bone_smith:blocks/marbled_bone"
+  }
+}
