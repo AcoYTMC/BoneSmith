@@ -3,7 +3,9 @@ package net.acoyt.bone_smith.objects.items.tools;
 import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 
 public class BoneScytheItem extends ItemScythe {
@@ -22,9 +24,9 @@ public class BoneScytheItem extends ItemScythe {
     }
 
     @Override
-    public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker) {
-        stack.damageItem(2, attacker);
-        attacker.playSound(BoneSoundsHandler.SCYTHE_HIT, 1, 1);
-        return true;
+    public boolean onLeftClickEntity(ItemStack stack, EntityPlayer player, Entity entity) {
+        stack.damageItem(2, player);
+        player.playSound(BoneSoundsHandler.SCYTHE_HIT, 0.73f, 1);
+        return false;
     }
 }

@@ -4,7 +4,9 @@ import net.acoyt.bone_smith.BoneSmith;
 import net.acoyt.bone_smith.init.ItemInit;
 import net.acoyt.bone_smith.util.handlers.BoneSoundsHandler;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
@@ -32,10 +34,10 @@ public class SepulchreSanguine extends ToyScythe {
     }
 
     @Override
-    public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker) {
-        stack.damageItem(0, attacker);
-        attacker.playSound(BoneSoundsHandler.PLUSH_HIT, 0.73f, 1);
-        return true;
+    public boolean onLeftClickEntity(ItemStack stack, EntityPlayer player, Entity entity) {
+        stack.damageItem(2, player);
+        player.playSound(BoneSoundsHandler.PLUSH_HIT, 1, 1);
+        return false;
     }
 
     @Override

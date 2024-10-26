@@ -91,13 +91,6 @@ public class ItemAnchor extends ItemSword {
     }
 
     @Override
-    public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker) {
-        stack.damageItem(2, attacker);
-        attacker.playSound(BoneSoundsHandler.ANCHOR_HIT, 1, 1);
-        return true;
-    }
-
-    @Override
     public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot equipmentSlot) {
         Multimap<String, AttributeModifier> multimap = HashMultimap.<String, AttributeModifier>create();
         if (equipmentSlot == EntityEquipmentSlot.MAINHAND) {
