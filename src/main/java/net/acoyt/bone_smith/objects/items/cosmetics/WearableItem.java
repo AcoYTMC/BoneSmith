@@ -1,4 +1,4 @@
-package net.acoyt.bone_smith.objects.items;
+package net.acoyt.bone_smith.objects.items.cosmetics;
 
 import com.google.common.base.Predicates;
 import net.acoyt.bone_smith.BoneSmith;
