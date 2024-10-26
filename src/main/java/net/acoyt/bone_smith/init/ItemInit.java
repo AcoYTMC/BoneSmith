@@ -7,6 +7,7 @@ import net.acoyt.bone_smith.objects.items.cosmetics.SepulchreSanguine;
 import net.acoyt.bone_smith.objects.items.cosmetics.WearableHat;
 import net.acoyt.bone_smith.objects.items.tools.BoneAnchorItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneScytheItem;
+import net.acoyt.bone_smith.objects.items.tools.ShatteredSoulBlade;
 import net.acoyt.bone_smith.objects.items.tools.WitheringBoneScytheItem;
 import net.acoyt.bone_smith.util.Reference;
 import net.minecraft.init.SoundEvents;
@@ -32,6 +33,7 @@ public class ItemInit {
     public static final Item BONE_SCYTHE = new BoneScytheItem("bone_scythe", TOOL_SCYTHE);
     public static final Item WITHERING_BONE_SCYTHE = new WitheringBoneScytheItem("withering_bone_scythe", TOOL_SCYTHE);
     public static final Item BONE_ANCHOR = new BoneAnchorItem("bone_anchor", TOOL_ANCHOR);
+    public static final Item SHATTERED_SOUL = new ShatteredSoulBlade("shattered_soul", TOOL_SCYTHE, 1.3D);
 
     //Items
     public static final Item FOSSIL = new ItemBase("fossil");
