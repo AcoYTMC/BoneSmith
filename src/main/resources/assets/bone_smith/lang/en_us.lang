@@ -7,11 +7,9 @@ item.sharp_bone.name=Sharp Bone
 item.bone_sword.name=Bone Sword
 item.bone_anchor.name=Bone Anchor
 item.bone_scythe.name=Bone Scythe
-item.withering_bone_scythe.name=§8Withering Bone Scythe
-item.withering_bone_scythe.desc=§6Withering
+item.shattered_soul.name=§dShattered Soul
 
 #Extras
-item.bone_booster.name=Bone Booster
 item.graveyard_hat.name=Graveyard Hat
 item.sepulchre_sanguine.name=§4Sepulchre Sanguine
 item.sepulchre_sanguine.desc=§6In case you couldn't read the disclaimer, IT'S FOAM YA DING DONG

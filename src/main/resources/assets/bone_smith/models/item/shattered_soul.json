@@ -1,6 +1,0 @@
-{
-    "parent": "bone_smith:item/handheld_big",
-    "textures": {
-        "layer0": "bone_smith:items/tools/shattered_soul"
-    }
-} 

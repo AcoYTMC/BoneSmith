@@ -25,27 +25,6 @@
       }
     ]
   },
-  "tools.bone_booster.dash": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "bone_smith:tools/bone_booster/boost1",
-        "stream": true
-      },
-      {
-        "name": "bone_smith:tools/bone_booster/boost2",
-        "stream": true
-      },
-      {
-        "name": "bone_smith:tools/bone_booster/boost3",
-        "stream": true
-      },
-      {
-        "name": "bone_smith:tools/bone_booster/boost4",
-        "stream": true
-      }
-    ]
-  },
   "cosmetic.sepulchre_sanguine.squeak": {
     "category": "player",
     "sounds": [

@@ -1,14 +1,11 @@
 package net.acoyt.bone_smith.init;
 
-import net.acoyt.bone_smith.objects.items.BoneBoosterItem;
 import net.acoyt.bone_smith.objects.items.ItemBase;
 import net.acoyt.bone_smith.objects.items.armor.ArmorBase;
 import net.acoyt.bone_smith.objects.items.cosmetics.SepulchreSanguine;
 import net.acoyt.bone_smith.objects.items.cosmetics.WearableHat;
 import net.acoyt.bone_smith.objects.items.tools.BoneAnchorItem;
 import net.acoyt.bone_smith.objects.items.tools.BoneScytheItem;
-import net.acoyt.bone_smith.objects.items.tools.ShatteredSoulBlade;
-import net.acoyt.bone_smith.objects.items.tools.WitheringBoneScytheItem;
 import net.acoyt.bone_smith.util.Reference;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -31,9 +28,7 @@ public class ItemInit {
 
     //Tools
     public static final Item BONE_SCYTHE = new BoneScytheItem("bone_scythe", TOOL_SCYTHE);
-    public static final Item WITHERING_BONE_SCYTHE = new WitheringBoneScytheItem("withering_bone_scythe", TOOL_SCYTHE);
     public static final Item BONE_ANCHOR = new BoneAnchorItem("bone_anchor", TOOL_ANCHOR);
-    public static final Item SHATTERED_SOUL = new ShatteredSoulBlade("shattered_soul", TOOL_SCYTHE, 1.3D);
 
     //Items
     public static final Item FOSSIL = new ItemBase("fossil");
@@ -47,7 +42,6 @@ public class ItemInit {
     public static final Item BOOTS_BONE_INFUSED = new ArmorBase("boots_bone_infused", ARMOR_BONE_INFUSED, 1, EntityEquipmentSlot.FEET);
 
     //Extras
-    public static final Item BONE_BOOSTER = new BoneBoosterItem("bone_booster");
     public static final Item SEPULCHRE_SANGUINE = new SepulchreSanguine("sepulchre_sanguine", TOOL_PLUSH);
     public static final Item GRAVEYARD_HAT = new WearableHat("graveyard_hat");
 }
