@@ -38,6 +38,6 @@ This mod adds a bone scythe, bone anchor, fossils, sharp bones, bone infused dia
  - Polished Bone
  - Big Skeleton Skull
 
-### 19 Recipes (viewable [here]())
+### 19 Recipes (viewable [here](https://github.com/AcoYTMC/BoneSmith/wiki#recipes))
 
 ## THERE IS MORE PLANNED FOR FUTURE VERSIONS
