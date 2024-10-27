@@ -1,19 +1,43 @@
-## TemplateDevEnv
+![](https://cdn.modrinth.com/data/cached_images/f5312da61ea017920554b356049db0ebf4048290_0.webp)
 
-Template workspace for modding Minecraft 1.12.2. Licensed under MIT, it is made for public use.
+## A Minecraft Forge mod, improving on Minecraft's Arsenal with Bone-Based Weapons, as well as adding some new decorations!
 
-This template runs on Java 21! Currently utilizies **Gradle 8.10.1** + **[RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle) 1.4.1** + **Forge 14.23.5.2847**.
+### ⚠️ Currently, this mod is only available for 1.12.2. I may end up porting it to fabric 1.19.2 and fabric 1.20.1, as I will not be learning how to mod newer versions of forge. ⚠️
+This mod adds a bone scythe, bone anchor, fossils, sharp bones, bone infused diamond armor, and cosmetics.
 
-With **coremod and mixin support** that is easy to configure.
+## Gallery
+### Weapons, Armor, and Cosmetics
+![](https://cdn.modrinth.com/data/cached_images/2bb0a9dfa8bec290e85ea47149594b5bc79b583e.png)
+### Blocks and Items
+![](https://cdn.modrinth.com/data/cached_images/edf16b8638968a995939436a261058008edef4a9.png)
+### The Mobs and their Drops
+![](https://cdn.modrinth.com/data/cached_images/e6a5e0facb48342afdda007d8fa6f0d4cd2ca74d.png)
 
-### Instructions:
+### Items:
+- Weapons
+  - Bone Scythe
+  - Bone Anchor
+- Crafting Materials
+  - Withered and Normal Fossils
+  - Sharp Bones
+### Equipables:
+- Bone Infused Diamond Armor, 24 Armor Points, 3 Armor Toughness
+  - Helmet, 4 Armor Points
+  - Chestplate, 9 Armor Points
+  - Leggings, 7 Armor Points
+  - Boots, 4 Armor Points
+- Cosmetics
+  - Graveyard ***Hat***
+  - Sepulchre Sanguine Toy Scythe
+### Blocks
+ - Bone Bricks
+ - Bone Tiles
+ - Burrowed Bone
+ - Cracked Bone Bricks
+ - Marbled Bone
+ - Polished Bone
+ - Big Skeleton Skull
 
-1. Click `use this template` at the top.
-2. Clone the repository that you have created with this template to your local machine.
-3. Make sure IDEA is using Java 21 for Gradle before you sync the project. Verify this by going to IDEA's `Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JVM`.
-4. Open the project folder in IDEA. When prompted, click "Load Gradle Project" as it detects the `build.gradle`, if you weren't prompted, right-click the project's `build.gradle` in IDEA, select `Link Gradle Project`, after completion, hit `Refresh All` in the gradle tab on the right.
-5. Run gradle tasks such as `runClient` and `runServer` in the IDEA gradle tab, or use the auto-imported run configurations like `1. Run Client`.
+### 19 Recipes (viewable [here]())
 
-### Mixins:
-
-- When writing Mixins on IntelliJ, it is advisable to use latest [MinecraftDev Fork for RetroFuturaGradle](https://github.com/eigenraven/MinecraftDev/releases).
+## THERE IS MORE PLANNED FOR FUTURE VERSIONS
